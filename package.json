@@ -1,0 +1,23 @@
+{
+  "name": "midi-to-yml",
+  "version": "1.0.0",
+  "description": "A small midi to yml converter for panning (a spatium module in max/msp)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedGl0w/MidiToYml.git"
+  },
+  "author": "RedGl0w",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedGl0w/MidiToYml/issues"
+  },
+  "homepage": "https://github.com/RedGl0w/MidiToYml#readme",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.15",
+    "yaml": "^1.7.2"
+  }
+}
