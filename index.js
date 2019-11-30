@@ -11,14 +11,12 @@ midi.tracks.forEach((track, index) => {
 midi.tracks.forEach((track, index) => {
     let yml = {}
     let notes = track.notes;
-    let i = -190;
     notes.forEach((item, index) => {
-        if(i >=170){i=-190;}
         yml[index] =
             [
                 item.ticks / lastTick,
-                i+=10,
-                1
+                Math.random() * 360 - 180,
+                Math.random()
             ]
     })
     fs.writeFileSync("output"+index.toString()+".yml", yaml.stringify(yml), "utf8")
