@@ -1,7 +1,7 @@
 var Midi = require("@tonejs/midi").Midi
 var fs = require("fs")
 var yaml = require("yaml")
-const midiData = fs.readFileSync("midi1poly.mid")
+const midiData = fs.readFileSync(process.argv[2])
 const midi = new Midi(midiData)
 global.lastTick = 0;
 midi.tracks.forEach((track, index) => {
