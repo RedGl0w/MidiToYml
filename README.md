@@ -2,11 +2,13 @@
 A small midi to yml converter for panning (a [spatium](http://spatium.ruipenha.pt/) module in [max/msp](https://cycling74.com/))
 
 # How to install ?
-Requirement :
+
+## Requirement :
 * Nodejs
 * Npm
 * git
-Download :
+
+## Download :
 ```
 git clone https://github.com/RedGl0w/MidiToYml.git
 cd MidiToYml
